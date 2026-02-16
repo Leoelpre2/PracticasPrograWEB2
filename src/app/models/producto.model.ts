@@ -4,4 +4,7 @@ export interface Producto {
   descripcion: string;
   precio: number;
   imagenUrl: string;
+  categoria: string;
+  inStack: boolean;
+
 }

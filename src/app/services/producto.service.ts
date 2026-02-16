@@ -18,7 +18,11 @@ export class ProductsService{
             inStack: true
         }
     ];
+    //Despues de crear el arreglo va el metodo
     getAll(): Producto[]{
         return this.productos;
     }
 }
+
+//De momento llevamos dos clases que estan enlazadas... el productos.service.ts y el producto.model.ts, 
+// el primero se encarga de manejar la logica de los productos y el segundo se encarga de definir la estructura de los productos.

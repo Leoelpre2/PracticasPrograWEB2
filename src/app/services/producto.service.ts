@@ -5,6 +5,7 @@
 import {Injectable} from '@angular/core';
 import {Producto} from '../models/producto.model';
 @Injectable({providedIn: 'root'})
+//Esta clase nomas crea los porductos y los envia
 export class ProductsService{
     private productos: Producto[] = [
         {
@@ -17,4 +18,7 @@ export class ProductsService{
             inStack: true
         }
     ];
+    getAll(): Producto[]{
+        return this.productos;
+    }
 }

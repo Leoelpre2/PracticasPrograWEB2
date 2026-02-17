@@ -1,5 +1,5 @@
 import { Component, Input} from '@angular/core';
-import {Producto} from '../models/producto.model';
+import { Producto } from '../../../models/producto.model';
 @Component({
   selector: 'app-producto-card', //Lo que llamemos squi se va a ver en la vista
   standalone: true,
